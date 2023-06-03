@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    background-color: #727272;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+img{
+    width: 100px;
+}
+
+.btn-voltar{
+    text-decoration: none;
+    color:#dc3545 ;
+    background-color: #838282e0;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.btn-voltar:hover{
+    background-color: #dc3545;
+    color: white;
+    transition: 1s;
+}
+
+@media screen and (max-width: 530px) {
+    h1{
+        text-align: center;
+    }
+}
